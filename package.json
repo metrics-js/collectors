@@ -1,0 +1,44 @@
+{
+  "name": "@metrics/collectors",
+  "version": "1.0.0",
+  "description": "Generic collector types suitable for aggregating metrics",
+  "main": "lib/main.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "bench": "node benchmark/benchmark.js",
+    "test": "tap test/*.js",
+    "test:coverage": "tap test/*.js --cov",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metrics-js/collectors.git"
+  },
+  "author": "Trygve Lie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metrics-js/collectors/issues"
+  },
+  "homepage": "https://github.com/metrics-js/collectors#readme",
+  "keywords": [
+    "server-statistics",
+    "server-stats",
+    "statistics",
+    "metrics",
+    "monitoring",
+    "counter",
+    "gauge",
+    "histogram"
+  ],
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "benchmark": "^2.1.4",
+    "tap": "^12.1.1",
+    "prom-client": "^11.2.1"
+  }
+}
