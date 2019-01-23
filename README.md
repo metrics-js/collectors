@@ -1,5 +1,7 @@
 # collectors
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/metrics-js/collectors.svg)](https://greenkeeper.io/)
+
 Generic collector types suitable for aggregating metrics
 
 
